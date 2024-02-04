@@ -9,8 +9,8 @@ import {
 
 export default function Testimonial() {
   return (
-
-    <MDBContainer className="reviwe my-5 mb-5">
+    <div className="reviwe">
+        <MDBContainer className="container pt-5 pb-5  my-5 mb-5">
         <h2 >قالوا عنا </h2>
       <MDBCarousel showControls dark>
         {/* <MDBCarouselInner> */}
@@ -79,5 +79,7 @@ export default function Testimonial() {
         {/* </MDBCarouselInner> */}
       </MDBCarousel>
     </MDBContainer>
+    </div>
+  
   );
 }

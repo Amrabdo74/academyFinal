@@ -1,18 +1,18 @@
 import pageIamge from "../Images/logo.jpg";
 const Aboutus = () => {
   return (
-    <section id="who">
-      <div className="container">
-        <h2>من نحن</h2>
-        <div className="qr mt-5">
-          <div className="row d-flex align-items-center ">
+    <section >
+      <div className="container pt-5 mb-5" id="who">
+        <h2 className="mt-5 ">من نحن</h2>
+        <div className="">
+          <div className="row d-flex align-items-center justify-content-center ">
             <div className="img-qr col-lg-4" data-aos="fade-left">
               <img src={pageIamge} />
             </div>
             <div className="text-qr col-lg-8 ">
               <div>
                 <div className="row" data-aos="fade-up">
-                  <div className="col-lg-12 col-12">
+                  <div className="col-lg-12 col-12 text-center">
                     <div>
                       <p>
                         منصة األمين هي إحدى المنصات اإللكترونية الرائدة في تعليم
@@ -35,7 +35,7 @@ const Aboutus = () => {
                         المعرفة. بذلك، تساهم المنصة في تحقيق رؤية شاملة لتحفيظ
                         القرآن الكريم وتعلم اللغة العربية بكفاءة وبفعالية
                       </p>
-                      <a  href='#Form' className="btn contact-btn">تواصل معنا الان</a>
+                      <a  href='https://api.whatsapp.com/send?phone=4915758088973' className="btn login">تواصل معنا الان</a>
                     </div>
                   </div>
                 </div>

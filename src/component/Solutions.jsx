@@ -5,7 +5,7 @@ const Solutions = () => {
       <h2>مختلف الحلول تناسب جميع اإلحتياجات</h2>
       <div className="container mt-5">
         <div className="row justify-content-center   ">
-          <div className="card  col-lg-4 col-md-4 m-2  ">
+          <div className="card  col-lg-4 col-md-4 m-4  ">
             <img className=" w-25  " src={logo} alt="Card image cap" />
             <div className="card-body">
               <h6 className="card-text">
@@ -16,7 +16,7 @@ const Solutions = () => {
               </h6>
             </div>
           </div>
-          <div className="card  col-lg-4 col-md-4 m-2  ">
+          <div className="card  col-lg-4 col-md-4 m-4  ">
             <img className=" w-25  " src={logo} alt="Card image cap" />
             <div className="card-body">
               <h6 className="card-text">
@@ -26,7 +26,7 @@ const Solutions = () => {
               </h6>
             </div>
           </div>
-          <div className="card  col-lg-4 col-md-4 m-2  ">
+          <div className="card  col-lg-4 col-md-4 m-4  ">
             <img className=" w-25  " src={logo} alt="Card image cap" />
             <div className="card-body">
               <h6 className="card-text">
@@ -37,7 +37,7 @@ const Solutions = () => {
               </h6>
             </div>
           </div>
-          <div className="card  col-lg-4 col-md-4 m-2  ">
+          <div className="card  col-lg-4 col-md-4 m-4  ">
             <img className=" w-25  " src={logo} alt="Card image cap" />
             <div className="card-body">
               <h6 className="card-text">

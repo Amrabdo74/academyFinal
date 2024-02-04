@@ -1,8 +1,9 @@
 import serviceImg from "../Images/logo.jpg";
 const Servicetwo = () => {
   return (
-    <div className="container Servicetwo text-center mb-5">
-      <h2>خدماتنا</h2>
+    <div className="service-parent " id="service">
+       <div className="container Servicetwo text-center mb-5">
+      <h2 className="mt-5">خدماتنا</h2>
       <p>الخدمات المتاحة لمنصة الأمين</p>
       <div className=" mt-5 row justify-content-between ">
         <div className="col-md-5 text-center service-text  ">
@@ -16,11 +17,13 @@ const Servicetwo = () => {
         </div>
         <div className="col-md-6">
           <img src={serviceImg} alt="" />
-          <a  href='#Form' className="btn contact-btn">تواصل معنا الان</a>
+          <a  href='https://api.whatsapp.com/send?phone=4915758088973' className=" mt-3 btn login">تواصل معنا الان</a>
 
         </div>
       </div>
     </div>
+    </div>
+   
   );
 };
 

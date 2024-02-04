@@ -9,10 +9,6 @@ body {
   font-family: "tajawal", Arial, sans-serif !important;
 }
 
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
 
 ul {
   margin: 0 !important;
@@ -33,7 +29,7 @@ a {
 }
 
 a:not(.contact):hover {
-  color: #694028 !important;
+  color: #a77d31 !important;
 }
 
 img {
@@ -111,7 +107,7 @@ nav ul {
 }
 
 .logo img {
-  height: 80px;
+  height: 90px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -124,14 +120,14 @@ header.sticky .logo img {
 }
 
 a.login {
-  background: #694028;
+  background: #a77d31;
   color: #fff !important;
   border-radius: 50px;
 }
 
 a.login:hover {
   background: #fff !important;
-  color: #694028 !important;
+  color: #a77d31 !important;
   border: 1px solid #000 !important;
 }
 
@@ -170,7 +166,7 @@ a.contact:hover {
   font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #694028;
+  color: #a77d31;
 }
 
 #who p {
@@ -182,7 +178,7 @@ a.contact:hover {
 
 #who .text-qr i {
   font-size: 35px;
-  color: #694028;
+  color: #a77d31;
 }
 
 #who .text-qr h4 {
@@ -218,16 +214,19 @@ a.contact:hover {
 }
 
 #questions {
-  background-color: #f2f5fa;
+  background-color: #d4c8ab;
   text-align: center;
 }
+#questions .container {
+  margin-top: 50px;
 
+}
 #questions h2 {
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #694028;
+  color: #a77d31;
 }
 
 #questions p {
@@ -256,7 +255,7 @@ a.contact:hover {
 }
 
 .question-answer .question.active p {
-  color: #694028 !important;
+  color: #a77d31 !important;
 }
 
 .question-answer .question p {
@@ -271,7 +270,7 @@ a.contact:hover {
 }
 
 .question-answer .question:hover p {
-  color: #694028 !important;
+  color: #a77d31 !important;
 }
 
 .question-answer .question span i {
@@ -280,7 +279,7 @@ a.contact:hover {
 }
 
 .question-answer .question:hover span i {
-  color: #694028;
+  color: #a77d31;
 }
 
 .question-answer .answer {
@@ -303,7 +302,7 @@ a.contact:hover {
 
 .question-answer .answer p i {
   font-size: 12px;
-  color: #694028;
+  color: #a77d31;
 }
 
 .question-answer .answer.active {
@@ -319,7 +318,7 @@ a.contact:hover {
   font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #694028;
+  color: #a77d31;
 }
 
 #contact p {
@@ -360,7 +359,7 @@ a.contact:hover {
 footer {
   color: #47536e;
   font-size: 15px;
-  background: #eff2f8;
+  background: #d4c8ab;
   font-weight: bold;
   text-align: center;
 }
@@ -368,7 +367,7 @@ footer {
 footer a {
   padding: 0 !important;
   padding-left: 5px !important;
-  color: #694028 !important;
+  color: #a77d31 !important;
   display: inline;
 }
 
@@ -382,7 +381,7 @@ footer .copyright p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #694028;
+  background: #a77d31;
   color: #fff !important;
   width: 40px;
   height: 40px;
@@ -398,12 +397,12 @@ footer .copyright p {
 
 }
 
-.left-phone,
+.left-phone,.face-book,
 .whats-app {
   position: fixed;
   right: 15px;
   z-index: 996;
-  background: #694028;
+  background: #a77d31;
   color: #fff !important;
   width: 40px;
   height: 40px;
@@ -418,29 +417,33 @@ footer .copyright p {
 }
 
 .left-phone {
-  top: 123px;
+  top: 130px;
 }
 
 .whats-app {
-  top: 170px;
+  top: 180px;
 }
-
+.face-book {
+  top: 230px;
+}
 .go-top.active {
   display: flex;
 }
 
 .go-top:hover svg {
-  color: #000 !important;
+  color: #624104 !important;
 }
 
 .whats-app:hover svg {
-  color: #000 !important;
+  color: #624104 !important;
 }
 
 .left-phone:hover svg {
-  color: #000 !important;
+  color: #624104 !important;
 }
-
+.face-book:hover svg {
+  color: #624104 !important;
+}
 .titel h2 {
   font-size: 50px;
   font-weight: 500;
@@ -456,7 +459,7 @@ footer .copyright p {
 }
 
 .servece {
-  background-color: #f2f5fa !important;
+  background-color: #d4c8ab !important;
   margin-bottom: 60px;
   padding: 50px 0;
 }
@@ -468,22 +471,23 @@ footer .copyright p {
 }
 
 .titel .coures-icon {
-  color: #694028;
+  color: #a77d31;
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
 }
 
-.coures {
-  margin-bottom: 120px;
-}
+
 
 .btn-coures {
-  background-color: #694028 !important;
-  color: #fff !important;
+  background-color:#ffff;
+  color: #fff  !important;
   margin-top: 50px;
+  border: 1px solid #a77d31 ;
 }
-
+.btn-coures:hover  {
+    background-color: #a77d31 ;
+}
 .footer-icons svg {
   width: 30px;
   height: 30px;
@@ -509,10 +513,16 @@ footer .copyright p {
 }
 
 .Solutions .card {
-  background-image: linear-gradient(#FAE878, #CCAB4C);
-  background-color: #FAE878;
+  /* background-image:#a77d31; */
+  /* background-color: #bd953d; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius:30px ;
+  transition: .3s;
+}
+.Solutions .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .Solutions .card img {
@@ -524,16 +534,41 @@ footer .copyright p {
   padding: 15px 2px;
   border-radius: 20px;
   border: 1px solid #B3954D ;
-  font-size: 20px;
+  font-size: 23px;
   box-shadow: 5px 12px 6px -6px #B3954D;
 
 }
 .Whyus-sections {
-  background-color: #B3954D;
-  box-shadow: 12px -1px 0px -5px gray ;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
  margin-left: auto;
   margin-right: auto;
   padding: 20px;
   border-radius: 30px;
+  transition: .3s;
 
+}
+.Whyus-sections:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}
+.Whyus {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;  
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  background-color: #d4c8ab ;
+}
+.reviwe {
+  background-color: #d4c8ab ;
+
+}
+#service .container {
+  padding-top: 30px !important;
+}
+#course {
+  padding-top: 80px !important;
+  padding-bottom: 30px !important;
+
+}
+#why {
+  padding-top: 80px !important;
 }

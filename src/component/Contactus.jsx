@@ -5,7 +5,7 @@ import Homeform from "./Homeform";
 
 const Contactus = () => {
   return (
-    <section id="contact">
+    <section id="contact" className="mb-5">
       <div className="container">
         <h2 data-aos="fade-up">تواصل معنا </h2>
         <p data-aos="fade-up">
@@ -21,7 +21,7 @@ const Contactus = () => {
                 </h3>
                 <h4>إتصل بنا</h4>
                 <p>
-                  <a href="tel:+966570094500">+966-57-009-4500</a>
+                  <a href="tel:+4915758088973">49-15758088973+</a>
                 </p>
               </div>
               <div className="col-lg-3 info">
@@ -31,10 +31,10 @@ const Contactus = () => {
                 <h4>الدعم الفني</h4>
                 <p>
                   <a
-                    href="https://api.whatsapp.com/send?phone=966570094500"
+                    href="https://api.whatsapp.com/send?phone=4915758088973"
                     className="float-whatsApp"
                   >
-                    +966-57-009-4500
+                    49-15758088973+
                   </a>
                 </p>
               </div>
@@ -44,10 +44,10 @@ const Contactus = () => {
                 </h3>
                 <h4>راسلنا على</h4>
                 <p>
-                  <a href="mailto:tagme.supp@gmail.com">info@tag-me.net</a>
+                  <a href="mailto:alamin.manasa@gmail.com">alamin.manasa@gmail.com</a>
                 </p>
               </div>
-      <Homeform/>
+      {/* <Homeform/> */}
             </div>
           </div>
         </div>

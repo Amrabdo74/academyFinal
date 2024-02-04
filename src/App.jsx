@@ -13,6 +13,7 @@ import Testimonial from "./component/Testimonial ";
 import Solutions from "./component/Solutions";
 import Servicetwo from "./component/Servicetwo";
 import Whyus from "./component/Whyus";
+import Between from "./component/Between";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -27,13 +28,20 @@ function App() {
       <Navbar />
       <Slider />
       <Aboutus />
-      <Questions />
-      <Courses />
-      <Service />
+      <Between />
       <Servicetwo />
-      <Whyus/>
+      <Between />
+      {/* <Service /> */}
+   
+      <Courses />
+      <Between />
+      <Whyus />
+      <Between />
       <Solutions />
-      <Testimonial />
+      <Between />
+         <Questions />
+      <Between />
+      {/* <Testimonial /> */}
       <Contactus />
       <Footer />
     </>

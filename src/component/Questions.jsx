@@ -1,9 +1,9 @@
 const Questions = () => {
   return (
-    <section id="questions">
+    <section id="questions" className="pt-5 pb-5">
       <div className="container">
         <h2 data-aos="fade-up">الأسئلة الشائعة </h2>
-        <p data-aos="fade-up">إجابات عن أسئلة قد تهمك تخص تاج مي</p>
+        <p data-aos="fade-up">إجابات عن أسئلة قد تهمك تخص منصة الأمين </p>
         <div className=" accordion accordion-flush" id="accordionFlushExample">
           <div className="accordion-item">
             <h2 className="accordion-header" id="flush-headingOne">
@@ -16,7 +16,7 @@ const Questions = () => {
                 aria-controls="flush-collapseOne"
               >
                 <p className="mb-0 d-flex align-items-center justify-content-center">
-                  ماهي بطاقة تاق مي؟
+                  هل يوجد دورات مجانية؟{" "}
                 </p>
               </button>
             </h2>
@@ -28,8 +28,9 @@ const Questions = () => {
             >
               <div className="accordion-body">
                 <p>
-                  بطاقة تاق مي هي بديل عن بطاقة العمل تسهل للأفراد والشركات نقل
-                  معلومات التواصل مع أي شخص بسهولة.
+                  نعم يوجد لدينا دورات جماعية مجانية تتم بنظام مجموعات للنساء او
+                  للرجال ويتم تحديدها مع اكتمال عدد المشتركين لامكانية ايصال
+                  الافادة لاكبر عدد بطريقة عملية.{" "}
                 </p>
               </div>
             </div>
@@ -46,8 +47,8 @@ const Questions = () => {
                 aria-controls="flush-collapseThree"
               >
                 <p className="mb-0 d-flex align-items-center justify-content-center">
-                  ماهي بطاقة تاق مي؟
-                </p>{" "}
+                  كيف يتم الدرس؟
+                </p>
               </button>
             </h2>
             <div
@@ -58,9 +59,7 @@ const Questions = () => {
             >
               <div className="accordion-body">
                 <p>
-                  بطاقة تاق مي هي بديل عن بطاقة العمل تسهل للأفراد والشركات نقل
-                  معلومات التواصل مع أي شخص بسهولة.
-                </p>
+                يتم الدرس عبر منصة الإنترنت بواسطة معلمين محترفين، حيث يتم توفير موارد تعليمية متنوعة وجلسات تفاعلية.                </p>
               </div>
             </div>
           </div>
@@ -75,8 +74,7 @@ const Questions = () => {
                 aria-controls="flush-collapseFour"
               >
                 <p className="mb-0 d-flex align-items-center justify-content-center">
-                  ماهي بطاقة تاق مي؟
-                </p>
+                متى تكون مواعيد الدرس؟                </p>
               </button>
             </h2>
             <div
@@ -87,9 +85,7 @@ const Questions = () => {
             >
               <div className="accordion-body">
                 <p>
-                  بطاقة تاق مي هي بديل عن بطاقة العمل تسهل للأفراد والشركات نقل
-                  معلومات التواصل مع أي شخص بسهولة.
-                </p>
+                يتم تحديد مواعيد الدرس وفقا للجداول زمنية يتم تنسيقها حسب اوقاتكم واوقات المدرس بيحث تكون الحصص اكثر مرونة في حال حصول اي ظرف طارئ.                </p>
               </div>
             </div>
           </div>
@@ -104,8 +100,7 @@ const Questions = () => {
                 aria-controls="flush-collapseFive"
               >
                 <p className="mb-0 d-flex align-items-center justify-content-center">
-                  ماهي بطاقة تاق مي؟
-                </p>
+                ماذا أحتاج للدرس؟                </p>
               </button>
             </h2>
             <div
@@ -116,9 +111,7 @@ const Questions = () => {
             >
               <div className="accordion-body">
                 <p>
-                  بطاقة تاق مي هي بديل عن بطاقة العمل تسهل للأفراد والشركات نقل
-                  معلومات التواصل مع أي شخص بسهولة.
-                </p>
+                تحتاج إلى جهاز كمبيوتر مع اتصال إنترنت جيد ، بالإضافة إلى برنامج الدردشة والكاميرا للتفاعل مع المعلم.                </p>
               </div>
             </div>
           </div>
@@ -133,8 +126,7 @@ const Questions = () => {
                 aria-controls="flush-collapseSix"
               >
                 <p className="mb-0 d-flex align-items-center justify-content-center">
-                  ماهي بطاقة تاق مي؟
-                </p>
+                كيف يتم تحديد مستواي؟                </p>
               </button>
             </h2>
             <div
@@ -145,9 +137,7 @@ const Questions = () => {
             >
               <div className="accordion-body">
                 <p>
-                  بطاقة تاق مي هي بديل عن بطاقة العمل تسهل للأفراد والشركات نقل
-                  معلومات التواصل مع أي شخص بسهولة.
-                </p>
+                يتم تحديد مستواك عند التسجيل في الحصة التجريبية المجانية من خلال اختبار تقييمي يقيس مهاراتك في اللغة، وبناءً على النتائج، سيتم تحديد المستوى المناسب لك                </p>
               </div>
             </div>
           </div>
@@ -162,8 +152,7 @@ const Questions = () => {
                 aria-controls="flush-collapseseven"
               >
                 <p className="mb-0 d-flex align-items-center justify-content-center">
-                  ماهي بطاقة تاق مي؟
-                </p>
+                هل الدورات فردية أم جماعية؟                </p>
               </button>
             </h2>
             <div
@@ -174,9 +163,7 @@ const Questions = () => {
             >
               <div className="accordion-body">
                 <p>
-                  بطاقة تاق مي هي بديل عن بطاقة العمل تسهل للأفراد والشركات نقل
-                  معلومات التواصل مع أي شخص بسهولة.
-                </p>
+                نحن نقدم دورات جماعية مجانية للمشتركين وأولياء الأمور. تشمل هذه الدورات برامج لتحسين التلاوة والفقه والعقيدة، بالإضافة إلى دروس حول السيرة النبوية الشريفة.                </p>
               </div>
             </div>
           </div>

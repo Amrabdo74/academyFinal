@@ -8,7 +8,6 @@ const Navbar = () => {
       mainContent.style.display = "none";
     }
 
-
     // Your existing JavaScript code with null checks
 
     let header = document.querySelector("header");
@@ -37,15 +36,14 @@ const Navbar = () => {
         }
       }
     });
-
   }, []);
   return (
-    <header >
+    <header>
       <nav className="navbar navbar-expand-lg auto container d-flex align-items-center justify-content-between  ">
         <div className="logo d-flex justify-content-between ">
-          <a href="#">
+          <div>
             <img src={logo} alt="Logo" />
-          </a>
+          </div>
         </div>
         <button
           className="navbar-toggler ms-5"
@@ -64,7 +62,14 @@ const Navbar = () => {
         >
           <ul className=" nav-item d-flex  justify-content-center navbar-nav  mx-auto  ">
             <li className="nav-item">
-              <a className=" nav-link active scrollto" href="#carouselExampleAutoplaying">
+              <a
+                className=" nav-link active scrollto"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollTo(0, 0);
+                }}
+                href=""
+              >
                 الرئيسيه
               </a>
             </li>
@@ -75,8 +80,18 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className=" nav-link active scrollto" href="#who">
-                البرامج
+              <a className=" nav-link active scrollto" href="#service">
+                خدماتنا
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className=" nav-link active scrollto" href="#course">
+                دورات
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className=" nav-link active scrollto" href="#why">
+              لماذا تختارنا
               </a>
             </li>
             <li className="nav-item">
@@ -85,13 +100,16 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link scrollto" href="#contact">
+توصل معانا              </a>
+            </li>
+            <li className="nav-item">
               <a className="login scrollto" href="#">
                 تسجيل الدخول
               </a>
             </li>
-       
           </ul>
-          <div className=" text-center d-flex nav-icons align-content-center justify-content-center  ">
+          {/* <div className=" text-center d-flex nav-icons align-content-center justify-content-center  ">
              <div className="mx-5" >
                <FaPhone />
               <p className=" m-0 ">إتصل بنا</p>
@@ -102,10 +120,8 @@ const Navbar = () => {
               <p className=" m-0 ">الدعم الفني</p>
               <a href="tel:+966570094500" className=" p-0 ">+966-57-009-4500</a>
               </div>
-            </div>
+            </div> */}
         </div>
-    
-        
       </nav>
     </header>
   );

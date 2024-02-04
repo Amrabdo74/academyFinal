@@ -14,14 +14,15 @@ const Courses = () => {
           <div className="content-text  col-sm-6 col-lg-3  ">
             <GiTeacher className="coures-icon" />
             <h6> أفضل المُعلمين</h6>
-            <p>أحصل على إجازات معتمدة من الأكاديمية حال اتمامك للدورات</p>
+            <p>ستكون برفقة افضل المعلمين في رحلتك التعليمية
+
+المعلمين لديهم إجازات بأعلى الأسناد مما يخولك الحصول على إجازة منهم</p>
           </div>
           <div className="content-text  col-sm-6 col-lg-3 ">
             <CiReceipt className="coures-icon" />
-            <h6> إجازات اعلى الاساند</h6>
+            <h6> إجازات باعلى للأسناد</h6>
             <p>
-              هنسهّلك كل حاجة وفريق عمل تاجر هيساهدك ازاي تسوّق منتجك بكل سهولة
-            </p>
+المعلمين لديهم إجازات بأعلى الأسناد مما يخولك الحصول على إجازة منهم            </p>
           </div>
           <div className="content-text  col-sm-6 col-lg-3 ">
             <MdOutlineWorkspacePremium className="coures-icon" />

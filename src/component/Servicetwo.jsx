@@ -8,7 +8,7 @@ const Servicetwo = () => {
       <div className=" mt-5 row justify-content-between ">
         <div className="col-md-5 text-center service-text  ">
           <div className=" mb-3 bg-black ">تحفيظ القرآن الكريم </div>
-          <div className=" mb-3 bg-black ">تصحيح تالوة القرىن الكريم</div>
+          <div className=" mb-3 bg-black ">تصحيح تلاوة القرآن</div>
           <div className=" mb-3 bg-black ">تعليم اللغة العربية</div>
           <div className=" mb-3 bg-black ">دروس علوم الشريعة و الفقه</div>
           <div className=" mb-3 bg-black ">دروس السيرة النبوية العطرة</div>

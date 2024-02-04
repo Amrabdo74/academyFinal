@@ -4,7 +4,7 @@ const Solutions = () => {
     <div className=" Solutions text-center">
       <h2>مختلف الحلول تناسب جميع اإلحتياجات</h2>
       <div className="container mt-5">
-        <div className="row justify-content-center   ">
+        <div className="row justify-content-center p-3  ">
           <div className="card  col-lg-4 col-md-4 m-4  ">
             <img className=" w-25  " src={logo} alt="Card image cap" />
             <div className="card-body">

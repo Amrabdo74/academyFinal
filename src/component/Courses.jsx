@@ -8,7 +8,7 @@ const Courses = () => {
   return (
     <div>
       <div className="titel coures text-center pt-5  container" id="course">
-        <h2 data-aos="fade-up">دورات شرعية وإجازات اعلى الاساند</h2>
+        <h2 data-aos="fade-up">دورات شرعية وإجازات بأعلى للأسناد</h2>
         <p data-aos="fade-up">إحفظ القرآن الكريم وانت في مكانك</p>
         <div data-aos="fade-up" className="section-two  row text-center mt-5  ">
           <div className="content-text  col-sm-6 col-lg-3  ">
